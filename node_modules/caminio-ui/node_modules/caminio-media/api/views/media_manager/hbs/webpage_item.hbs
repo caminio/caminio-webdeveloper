@@ -1,0 +1,6 @@
+{{#if matchCurWebpageLevel}}
+  <li {{action selectItem content}}
+      {{bind-attr class=":label-item isCurrent:selected"}}>
+    {{content.name}}
+  </li>
+{{/if}}

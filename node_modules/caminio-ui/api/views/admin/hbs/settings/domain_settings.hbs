@@ -1,0 +1,33 @@
+<section class="main-wrapper">
+
+  <header>
+    <div class="box title-box website">
+      <div class="main-ctrl">
+        <button class="btn icon-text domain.isDirty:primary" {{action 'saveSettings' domain}}>
+          <i class="fa fa-save"></i>
+          {{t 'save'}}
+        </button>
+      </div>
+      <h1>{{domain.name}} {{t 'settings'}}</h1>
+
+    </div>
+
+  </header>
+
+  <form class="caminio default-padding row">
+
+    <div class="col-md-6">
+      
+
+      <div class="form-group">
+        <label class="control-label">{{t domain.thumbs}}</label>
+        <div>
+          <textarea class="form-control settings" id="domain-settings"></textarea>
+        </div>
+      </div>
+
+
+    </div>
+  </form>
+
+</section>

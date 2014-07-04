@@ -1,0 +1,8 @@
+<div {{bind-attr title='content.name'}}
+     {{bind-attr class=":media-item :clearfix isCurrent:selected"}}
+     {{action 'openLabel' content}}>
+  <div class="caption">
+    <div class="size">{{content.humanSize}}</div>
+    <div class="filename">{{content.name}}</div>
+  </div>
+</div>
