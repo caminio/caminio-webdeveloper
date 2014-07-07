@@ -9,7 +9,7 @@ module.exports = {
     debug: true 
   },
 
-  superusers: [ 'manager@camin.io', 'david@test.test' ],
+  superusers: [ 'manager@camin.io' ],
 
   hostname: 'http://localhost:4000',
 
